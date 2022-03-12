@@ -58,4 +58,8 @@ for (let i = userMinNumber - 1; i <= userMaxNumber; i = i + 4) {
 }
 */
 
+//Request a number and check whether it is prime. A prime 
+//number is divided only by itself and by one without a remainder.
 
+
+//let userPrimeNum = Number(prompt("Enter whole number: "));
