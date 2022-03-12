@@ -63,3 +63,7 @@ for (let i = userMinNumber - 1; i <= userMaxNumber; i = i + 4) {
 
 
 //let userPrimeNum = Number(prompt("Enter whole number: "));
+
+
+
+
