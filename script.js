@@ -47,5 +47,15 @@ for (let i = 1;i <= 100; i = i + 1) {
 }*/
 
 
+//2. Output each 4th element from the user-specified range. The user 
+//specifies the minimum and maximum range values. 
+  
+/*
+let userMinNumber = Number(prompt("Enter number for minimum value of range: "));
+let userMaxNumber = Number(prompt("Enter number for maximum value of range: "));
+for (let i = userMinNumber - 1; i <= userMaxNumber; i = i + 4) {
+    console.log("4th element is " + i);
+}
+*/
 
 
