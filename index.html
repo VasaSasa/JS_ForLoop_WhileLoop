@@ -182,21 +182,24 @@ for (let i = userMinNumber - 1; i <= userMaxNumber; i = i + 4) {
 <hr>
 <hr>
 
-      <form action="result.html" method="GET">
+      <form action="result.html" method="GET"><!--GET,POST-->
 
-        <label for="feeling">How do you feel about this page?</label>   <!--inline block-->
+        <label for="feeling">How do you feel about this page?:</label>   <!--inline block-->
         <input type="text" id="feeling" name="feeling">
 
-        <label for="gender">Gender</label>
+        <label for="gender">Gender:</label>
         <input type="text" id="gender" name="gender">
 
-        <label for="age">Age</label>
-        <input type="text" id="age" name="age">
+        <label for="age">Age:</label>
+        <input type="number" min="1" max="120" id="age" name="age">
 
-        <label for="nationality">Nationality</label>
+        <label for="nationality">Nationality:</label>
         <input type="text" id="nationality" name="nationality">
 
+        <label for="month">Today date:</label>
+        <input type="month" id="month" name="month">
 
+        <!-- <input type="time"> -->
 
 
 
