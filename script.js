@@ -64,6 +64,15 @@ for (let i = userMinNumber - 1; i <= userMaxNumber; i = i + 4) {
 
 //let userPrimeNum = Number(prompt("Enter whole number: "));
 
+/*
+if (userPrimeNum / userPrimeNum == 1 && userPrimeNum / 1 == userPrimeNum) {
+    console.log(`Entered number: ${userPrimeNum} is Prime Number.`);
+} else {
+    console.log(`Entered number: ${userPrimeNum} is not Prime Number.`);
+}
 
+console.log(Math.PI);   // vypíše 3.14..........
+
+*/
 
 
